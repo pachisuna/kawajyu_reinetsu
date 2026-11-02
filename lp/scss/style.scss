@@ -546,112 +546,15 @@ body{
 			}
 		}
 	}
-}
 
-
-
-// フォーム
-.form{	
-	min-height: 100vh;
-	padding: 6% 0;
-	background-color: #ebf7ff;
-	
-	.ttl_read{
-		padding-bottom: 2%;
-	}
-	.bg{
-		position: relative;
-		padding: 10% 2.5%;
-		background-color: #fff;
-
-		border-radius: 16px;
-	}
-	&.confirm .baseW{
-		padding-top: 10%;
-	}
-
-
-
-	.ttl,
-	.message_wrap{
-		margin-bottom: 8%;
-		text-align: center;
-	}
-	.ttl{
-		font-size: 140%;
-		color: #005272;
-	}
-	.message_wrap{
-		font-size: 3.6vw;
-		@include mq(min_sm) {
-			font-size: 21px;
-		}
-	}
-
-	.inq_ttl{
-		font-size: 80%;
-	}
-	.req .inq_ttl::after{
-		content: "(必須)";
-		color: #db3923;
-	}
-	&.confirm .req .inq_ttl::after{
-		content: "";
-	}
-
-	.inq_item{
-		margin-bottom: 6%;
-
-		select,
-		input{
-			display: block;
-			padding: 5px 6px;
-			width: 100%;
-			min-height: 33px;
-			background-color: #fff8d1;
-		}
-		select{
-			position: relative;
-			padding-left: 1em;
-			
-			border-radius: 0;
-			appearance: auto;
-		}
-
-		.errorText{
-			line-height: 1.2;
-			color: #f00;
-		}
-	}
-	.btn_to_link{
-
-		button,
-		a{
-			display: block;
-			margin: 0 auto;
-			padding: 2% 0;
-			width: 60%;
-			text-align: center;
-			background-color: #e60012;
-			color: #fff;
-			font-size: 120%;
-		}
-
-		button{
-			cursor: pointer;
-		}
-	}
-
-	.privacy{
-		padding-top: 1.5em;
-		text-align: center;
-		color: #fff;
-
-		a{
-			text-decoration: underline;
-		}
+	.to_entry{
+		margin-top: 10%;
 	}
 }
+
+
+
+
 
 
 
